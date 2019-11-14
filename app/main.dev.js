@@ -85,7 +85,9 @@ else {
     mainWindow = new BrowserWindow({
       show: false,
       width: 1280,
-      height: 728
+      minWidth: 1280,
+      height: 728,
+      minHeight: 728
     });
 
     // init cliLocal
